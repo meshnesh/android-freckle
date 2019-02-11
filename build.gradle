@@ -45,4 +45,6 @@ ext {
     espressoTestingSupportVersion = "3.0.2"
 
     ktLintVersion = "0.29.0"
+
+    okhttp_version = '3.9.0'
 }

@@ -6,7 +6,7 @@ import android.content.Intent
 import android.util.Log
 import android.widget.Toast
 
-import com.example.antonynganga.androidfreckle.MainActivity
+import com.example.antonynganga.androidfreckle.view.DashBoard.MainActivity
 import com.example.antonynganga.androidfreckle.data.Constants
 import com.example.antonynganga.androidfreckle.util.NetworkInfo
 

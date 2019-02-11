@@ -3,9 +3,13 @@
     <color name="colorPrimary">#CDDC39</color>
     <color name="colorPrimaryDark">#AFB42B</color>
     <color name="colorAccent">#43cce2</color>
-    <color name="colorOverPrimary">#5a7e0b</color>
-    <color name="colorPrimaryText">#62635e</color>
+    <color name="colorOverPrimary">#5A7E0B</color>
+    <color name="colorPrimaryText">#000</color>
     <color name="colorSecondaryText">#fff</color>
     <color name="colorPrimaryGraph">#f1a15f</color>
     <color name="colorSecondaryGraph">#7be6cd</color>
+
+    <!--custom colours-->
+    <color name="screenColor">#8980F5</color>
+    <color name="Button">#F16A9C</color>
 </resources>

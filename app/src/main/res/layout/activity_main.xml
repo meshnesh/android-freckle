@@ -2,21 +2,51 @@
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:ignore="MissingConstraints"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:background="@color/colorSecondaryText"
+        tools:context=".view.DashBoard.MainActivity">
 
-    <TextView
-            android:id="@+id/original_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:fontFamily="@font/dinpro"
-            android:textColor="@color/colorPrimaryText"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+    <RelativeLayout
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sideParent" tools:layout_editor_absoluteY="0dp" tools:layout_editor_absoluteX="0dp"
+            android:background="@color/screenColor">
+
+        <TextView
+                android:id="@+id/sidePanel"
+                android:layout_height="43dp"
+                android:layout_width="147dp"
+                android:text="@string/SidePanel"
+                android:textColor="@color/colorPrimaryText" tools:layout_editor_absoluteY="344dp"
+                tools:layout_editor_absoluteX="132dp" android:textAlignment="center" android:textSize="24sp"
+                android:layout_alignParentBottom="true" android:layout_marginBottom="546dp"
+                android:layout_alignParentEnd="true" android:layout_marginEnd="2dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="259dp"
+            android:layout_height="match_parent"
+            android:id="@+id/mainBody" tools:layout_editor_absoluteX="152dp"
+            android:background="@color/colorOverPrimary">
+
+        <TextView
+                android:id="@+id/welcome"
+                android:layout_height="105dp"
+                android:layout_width="match_parent"
+                android:text="@string/MainDashboard"
+                android:textColor="@color/colorPrimaryText" tools:layout_editor_absoluteY="344dp"
+                tools:layout_editor_absoluteX="132dp" android:textAlignment="center" android:textSize="30sp"
+                android:layout_alignParentEnd="true" android:layout_marginEnd="0dp"
+                android:layout_alignParentBottom="true" android:layout_marginBottom="312dp"
+                android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+                android:layout_marginTop="314dp" android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
